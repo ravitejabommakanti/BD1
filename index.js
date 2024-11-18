@@ -8,7 +8,7 @@ function greetingMessage(){
   return 'Hello People, Welcome!';
 }
 
-app.get('/welcom', (req, res) => {
+app.get('/welcome', (req, res) => {
     res.send(greetingMessage());
 });
 
